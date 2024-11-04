@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Download PDF";
+}
+
+<h2>Download Your PDF</h2>
+
+@if (ViewBag.PdfFileName != null)
+{
+    <div class="alert alert-success">
+        <p>Your PDF has been created successfully!</p>
+        <a href="@Url.Content($"~/GeneratedFiles/{ViewBag.PdfFileName}")" class="btn btn-success">Download PDF</a>
+    </div>
+    <embed src="@Url.Content($"~/GeneratedFiles/{ViewBag.PdfFileName}")" type="application/pdf" width="100%" height="600px" />
+}
+else
+{
+    <p>No PDF file available for download.</p>
+}

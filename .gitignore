@@ -1,0 +1,47 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pdb
+*.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.publishsettings
